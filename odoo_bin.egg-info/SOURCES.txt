@@ -1,7 +1,7 @@
 README.md
 setup.py
 odoo_bin/__init__.py
-odoo_bin/odoo_bin.py
+odoo_bin/__main__.py
 odoo_bin.egg-info/PKG-INFO
 odoo_bin.egg-info/SOURCES.txt
 odoo_bin.egg-info/dependency_links.txt
