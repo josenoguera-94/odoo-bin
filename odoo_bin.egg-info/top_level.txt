@@ -1,1 +1,1 @@
-odoo-bin
+odoo_bin

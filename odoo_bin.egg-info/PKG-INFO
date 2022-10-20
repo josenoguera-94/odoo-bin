@@ -43,4 +43,15 @@ Nota: Es similar a cuando utilizamos scaffold con odoo instalado
 "c:\Program Files (x86)\Odoo 11.0\python\python.exe" "C:\Program Files (x86)\Odoo 11.0\server\odoo-bin" scaffold <module name here> "C:\Program Files (x86)\Odoo 11.0\server\odoo\addons"
 ```
 
+## Create package
 
+1. install wheel
+2. create metadata and `setup.py`
+3. execute command: `python setup.py sdist`
+4. execute command: `python setup.py bdist_wheel`
+
+**Nota:** Si escribe `pip install dist/odoo_bin-0.0.1-py3-none-any.whl` se instalaria en local
+
+### Para instalar
+
+`pip install git+https://github.com/josenoguera-94/odoo-bin.git`
