@@ -43,7 +43,7 @@ def undecimalize(symb, cr):
 psycopg2.extensions.register_type(psycopg2.extensions.new_type((700, 701, 1700,), 'float', undecimalize))
 
 
-from .odoo import tools
+from . import tools
 from .tools.func import frame_codeinfo
 
 from .tools import parse_version as pv

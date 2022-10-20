@@ -1,2 +1,0 @@
-[console_scripts]
-odoo_bin = odoo_bin.run:main

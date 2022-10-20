@@ -13,7 +13,7 @@ import warnings
 
 from . import release
 from . import sql_db
-from .odoo import tools
+from . import tools
 
 _logger = logging.getLogger(__name__)
 

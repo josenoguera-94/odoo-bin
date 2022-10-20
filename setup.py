@@ -41,10 +41,5 @@ if __name__ == "__main__":
             "Natural Language :: English",
             "License :: OSI Approved :: MIT License",
             "Operating System :: OS Independent",
-            "Programming Language :: Python :: 3.8"],
-        entry_points = {
-            'console_scripts': [
-                'odoo_bin=odoo_bin.run:main'
-            ]
-        }
+            "Programming Language :: Python :: 3.8"]
         )

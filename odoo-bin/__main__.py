@@ -4,6 +4,5 @@
 __import__('os').environ['TZ'] = 'UTC'
 from . import odoo
 
-def main():
+if __name__ == "__main__":
     odoo.cli.main()
-

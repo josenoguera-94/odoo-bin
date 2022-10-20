@@ -48,9 +48,9 @@ from lxml.builder import E
 from psycopg2.extensions import AsIs
 
 import odoo
-from .odoo import SUPERUSER_ID
+from . import SUPERUSER_ID
 from . import api
-from .odoo import tools
+from . import tools
 from .exceptions import AccessError, MissingError, ValidationError, UserError
 from .osv.query import Query
 from .tools import frozendict, lazy_classproperty, ormcache, \
