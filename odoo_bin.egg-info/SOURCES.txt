@@ -351,9 +351,3 @@ odoo_bin.egg-info/dependency_links.txt
 odoo_bin.egg-info/not-zip-safe
 odoo_bin.egg-info/requires.txt
 odoo_bin.egg-info/top_level.txt
-prueba/__init__.py
-prueba/__manifest__.py
-prueba/controllers/__init__.py
-prueba/controllers/controllers.py
-prueba/models/__init__.py
-prueba/models/models.py

@@ -14,7 +14,7 @@ Classifier: Programming Language :: Python :: 3.8
 
 # CORE ODOO v14
 
-Sirve para utilizar el comando scaffold sin instalar todo odoo en windows
+Sirve para utilizar el comando scaffold sin instalar toda la aplicaciÃ³n de odoo
 
 ## **Requisitos:**
 
@@ -33,8 +33,12 @@ Sirve para utilizar el comando scaffold sin instalar todo odoo en windows
 
 1. Crear un entorno virtual
 2. Activar entorno virtual
-3. Instalar paquetes `requirements.txt`
-4. Ejecutar `python core_odoo14/odoo-bin scaffold  <module_name> <Path_to_addons_folder>`
+3. Instalar **odoo-bin**:
+   - **Windows:** `pip install git+https://github.com/josenoguera-94/odoo-bin.git`
+   - **Linux:** `pip3 install git+https://github.com/josenoguera-94/odoo-bin.git`
+4. Ejecutar:
+   - **Windows:** `python -m odoo-bin scaffold <module_name> <Path_to_addons_folder>`
+   - **Linux:** `python -m odoo-bin scaffold <module_name> <Path_to_addons_folder>`
 
 Nota: Es similar a cuando utilizamos scaffold con odoo instalado
 ```
@@ -51,7 +55,3 @@ Nota: Es similar a cuando utilizamos scaffold con odoo instalado
 4. execute command: `python setup.py bdist_wheel`
 
 **Nota:** Si escribe `pip install dist/odoo_bin-0.0.1-py3-none-any.whl` se instalaria en local
-
-### Para instalar
-
-`pip install git+https://github.com/josenoguera-94/odoo-bin.git`
